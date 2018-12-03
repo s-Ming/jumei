@@ -1,0 +1,14 @@
+#nav-inner{
+    // width: rem(100px);
+    height:rem(38px);
+    font-size:rem(14px);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    a{
+        text-decoration:none;
+        color:#999;
+    }
+}

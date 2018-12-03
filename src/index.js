@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import Jheader from './commons/Jheader.jsx';
+// import Hsearch from './pages/home/Hsearch.jsx';
+// import Hnav from './pages/home/Hnav.jsx';
+import Home from './pages/home/Home.jsx';
 
-ReactDOM.render(<Jheader name='首页'/>, document.getElementById('root'));
+
+// import App from "./App.js";
+import axios from 'axios';
+React.axios = axios;
+
+ReactDOM.render( <Home name='首页'/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+// <Hsearch name='首页'/>

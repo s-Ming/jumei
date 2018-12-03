@@ -1,0 +1,28 @@
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: rem(26px);
+    // padding:0 rem(20px);
+    padding: rem(8px) 0;
+    font-size: rem(20px);
+
+    input{
+        border-radius:rem(15px);
+        width: rem(260px);
+        text-align:center;
+        background: #eee;
+        border:0 none;
+        margin-left: rem(28px);
+
+    }
+    i{
+        // font-size: rem(18px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#ccc;
+
+    }
+    
+}
