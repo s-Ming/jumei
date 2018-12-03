@@ -1,0 +1,28 @@
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	height: rem(42px);
+	padding:0 rem(20px);
+	height: rem(49px);
+	width:rem(375px);
+	position: fixed;
+	left:0;
+	bottom:0;
+	right:0;
+	.footer_div{
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		font-size: rem(16px);
+		width:25%;
+		text-align: center;
+		i{
+			text-align: center;
+		}
+	}
+	.item_li{
+		color:#fe4070;
+		
+	}
+}
