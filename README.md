@@ -49,3 +49,8 @@
 		详细(Mcontent.jsx)
 
 
+
+
+
+
+npm run eject    暴露配置文件
