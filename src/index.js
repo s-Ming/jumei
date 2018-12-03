@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
+// import Ceshi from './commons/ceshi.html'
 
-ReactDOM.render('好好吃', document.getElementById('root'));
+ReactDOM.render(123, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
