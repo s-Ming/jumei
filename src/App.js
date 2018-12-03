@@ -6,7 +6,12 @@ import Index from './pages/Home.jsx';
 
 class App extends Component {
     render(){
-        retrun ()
-        
+        retrun (
+          <div className="App">
+            {/* <Redirect exact from='/' to='/home/hot/'/> */}
+            <Route path="/home/" component={Index} />
+            <Route path="/detail/" component={Detail} />
+          </div>
+        );    
     }
 }

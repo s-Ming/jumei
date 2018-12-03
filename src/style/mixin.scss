@@ -1,0 +1,8 @@
+$fontSize : 37.5px;
+
+//计算rem
+@function rem($n){
+	@return $n/$fontSize*1rem
+};
+
+//
