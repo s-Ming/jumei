@@ -14,9 +14,12 @@ class Jdetails extends React.Component{
 
 	getDynamicData(){//动态数据
 		//如何解决跨域问题
-		React.axios.get('http://localhost:12345')
+		React.axios.get('./data/hslider.json')
 		.then((res)=>{
-			console.log(res)
+			this.setState({
+				goods : res.data
+			})
+			console.log(this.state.goods)
 		})
 		.catch((err)=>{
 			console.log(err)
@@ -25,15 +28,20 @@ class Jdetails extends React.Component{
 	getStaticData(){//静态数据
 		React.axios.get(`http://h5.jumei.com/product/ajaxStaticDetail?${this.str}`)
 	}
-	render(){
-		return(
-			<div></div>
-			)
-	};
+
 	//在生命周期中执行请求函数
 	componentDidMount(){
 		this.getDynamicData();
 	}
+
+	render(){
+		return(
+			<div>
+				
+			</div>
+			)
+	};
+	
 }
 
 
