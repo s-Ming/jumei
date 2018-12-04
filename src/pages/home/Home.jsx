@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Route } from "react-router-dom";
 import Hsearch from './Hsearch.jsx';
 import Hnav from './Hnav.jsx';
-// import Hlist from './Hlist.jsx';
+import Hlist from './Hlist.jsx';
 
 
 class Home extends Component {
@@ -31,8 +31,9 @@ class Home extends Component {
                 <ul className="tablist">
                     {this.tabChange(this.state.tablist)}
                 </ul>  
-                 
-                
+
+
+                <Hlist></Hlist>        
 
             </div>
         );

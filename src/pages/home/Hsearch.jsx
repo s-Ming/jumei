@@ -1,5 +1,5 @@
 import React from "react";
-import Hslider from './Hslider.jsx';
+// import Hslider from './Hslider.jsx';
 
 class Hsearch extends React.Component{
     constructor(props) {
@@ -16,7 +16,7 @@ class Hsearch extends React.Component{
                   <i className="fa fa-bars" aria-hidden="true"></i>
                </div>
                
-               <Hslider></Hslider> 
+               
             </div>
             )
     }
@@ -26,3 +26,6 @@ class Hsearch extends React.Component{
 export default Hsearch;
 
 //  <i className="fa fa-search" aria-hidden="true"></i>
+//  
+//  
+//  <Hslider></Hslider> 
