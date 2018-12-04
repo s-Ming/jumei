@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
+
 // import Hsearch from './pages/home/Hsearch.jsx';
 // import Hnav from './pages/home/Hnav.jsx';
 import Home from './pages/home/Home.jsx';
@@ -12,7 +13,12 @@ import Home from './pages/home/Home.jsx';
 import axios from 'axios';
 React.axios = axios;
 
-ReactDOM.render( <Home name='首页'/>, document.getElementById('root'));
+
+// import Jheader from './commons/Jheader.jsx';
+// import Jfooter from './commons/Jfooter.jsx';
+
+ReactDOM.render(<Home name='首页'/>, document.getElementById('root'));
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
