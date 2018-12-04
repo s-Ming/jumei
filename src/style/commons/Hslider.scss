@@ -1,0 +1,47 @@
+  .slider{
+        width:rem(315px);
+        position:fixed;
+        top:0;
+        left:rem(60px);
+        bottom:0;
+        z-index:99;
+        background:#fff;
+        color:#666;
+    .search{
+        margin-bottom:rem(8px);
+        input{
+            margin:0 rem(20px) rem(8px) rem(15px);
+        }
+        span{
+            font-size:rem(14px);
+            width:rem(50px);
+            color:#999;
+            padding:rem(6px) rem(5px) 0 0 ;
+        }
+    }
+
+    li{
+        height:rem(50px);
+        display:flex;
+        justify-content: space-between;
+        padding:0 rem(16px);             
+        font-size:rem(14px);
+        align-items: center;
+        border-bottom:1px dotted #ccc;
+    }  
+    li:first-of-type{
+        border-top:1px dotted #ccc;
+
+    }
+}
+ .mask{
+        position:fixed;
+        top:0;
+        right:0px;
+        bottom:0px;
+        left:0px;
+        background:rgba(0, 0, 0, 0.5);
+}
+.red{
+        color:#f60;
+}

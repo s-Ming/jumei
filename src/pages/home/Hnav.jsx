@@ -7,7 +7,7 @@ class Hnav extends React.Component{
     };
     render(){
         return(
-            <div id="nav-inner" className="headerNav clearfix" style={{width: "385px"}}>
+            <div id="nav-inner" className="headerNav clearfix" >
                 <p className="navTitle nt_deal nav_select">
                     <a href="/">
                         <span>首页</span>

@@ -1,4 +1,6 @@
 import React from "react";
+import Hslider from './Hslider.jsx';
+
 class Hsearch extends React.Component{
     constructor(props) {
       super(props);
@@ -7,10 +9,14 @@ class Hsearch extends React.Component{
     };
     render(){
         return(
-            <div className="search">
-              <input placeholder="搜索商品  分类  功效"/>
-                
-              <i className="fa fa-bars" aria-hidden="true"></i>
+            <div>
+               <div className="search">
+                  <input placeholder="搜索商品  分类  功效"/>
+                    
+                  <i className="fa fa-bars" aria-hidden="true"></i>
+               </div>
+               
+               <Hslider></Hslider> 
             </div>
             )
     }
