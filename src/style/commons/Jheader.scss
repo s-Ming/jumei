@@ -4,6 +4,10 @@
 	align-content: center;
 	height: rem(42px);
 	padding:0 rem(20px);
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
 	i,span{
 		font-size: rem(18px);
 		display: flex;

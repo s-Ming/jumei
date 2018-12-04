@@ -5,6 +5,7 @@ class Jheader extends React.Component{
 	  this.state = {};
 	  this.props = props;
 	};
+	
 	render(){
 		return(
 			<div className="header">
