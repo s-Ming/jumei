@@ -2,26 +2,28 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
-    height: rem(26px);
-    // padding:0 rem(20px);
+    height: rem(36px);
     padding: rem(8px) 0;
-    font-size: rem(20px);
-
+    
     input{
         border-radius:rem(15px);
-        width: rem(260px);
+        width: rem(280px);
         text-align:center;
         background: #eee;
         border:0 none;
         margin-left: rem(28px);
+        padding:rem(15px);
+        font-size: rem(14px);
 
     }
     i{
-        // font-size: rem(18px);
+        font-size: rem(22px);
         display: flex;
         align-items: center;
         justify-content: center;
         color:#ccc;
+        padding-top:rem(10px);
+
 
     }
     

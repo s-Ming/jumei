@@ -13,8 +13,11 @@ import * as serviceWorker from './serviceWorker';
 // import Hnav from './pages/home/Hnav.jsx';
 import Home from './pages/home/Home.jsx';
 
+// import Jheader from './commons/Jheader.jsx';
+// import Jfooter from './commons/Jfooter.jsx';
 
 // import App from "./App.js";
+
 
 
 
@@ -47,6 +50,8 @@ ReactDOM.render(
 	</Provider>, 
 	document.getElementById('root')
 	);
+
+
 
 
 // If you want your app to work offline and load faster, you can change
