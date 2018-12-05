@@ -1,0 +1,321 @@
+{
+    "code": "0",
+    "msg": "",
+    "data": {
+        "code": "0",
+        "action": "",
+        "message": "",
+        "extra": {
+            "timestamp": "2018-12-04 20:33:10"
+        },
+        "result": {
+            "item_id": "d181204p512794",
+            "type": "jumei_deal",
+            "status": "onsell",
+            "is_sellable": "1",
+            "selling_forms": "normal",
+            "discount": "-1",
+            "market_price": "156",
+            "size": [
+                {
+                    "sku": "1046776",
+                    "name": "型号",
+                    "stock": "20",
+                    "refund_policy": "",
+                    "size": "型号",
+                    "attribute": "",
+                    "market_price_zg": "156",
+                    "jumei_price": "88",
+                    "market_price": "156",
+                    "discount": "-1",
+                    "img": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_800_800.jpg?_ut=1503889513&imageView2/2/w/320/q/90",
+                    "seven_days_max_price": "88.00",
+                    "suit_num": "0",
+                    "unit": "",
+                    "refund": {
+                        "name": "",
+                        "text": "",
+                        "url": "http://h5.jumei.com/pages/2281"
+                    },
+                    "exchange_policy": {
+                        "name": "",
+                        "text": "",
+                        "url": ""
+                    },
+                    "url_scheme": ""
+                }
+            ],
+            "default_sku": "1046776",
+            "tag_ids": [],
+            "show_category": "deal",
+            "warehouse_code": "GZ07,CD06,SH09,TSN1,SZV3",
+            "sale_type": "0",
+            "sale_type_id": "",
+            "merchant_id": "0",
+            "product_id": "512794",
+            "brand_id": "679",
+            "category": "product",
+            "shipping_system_id": "0",
+            "product_attr_aca": "b",
+            "refund_policy": "30days",
+            "exchange_policy": "",
+            "value_of_goods": "",
+            "tax": "",
+            "anchor_uid": "",
+            "is_support_refund_window": "0",
+            "countries": "27",
+            "author_id": 0,
+            "video_id": "",
+            "is_hide_juhe_sku": 1,
+            "size_attr": [
+                {
+                    "title": "分类",
+                    "type": "size",
+                    "sort": "2",
+                    "item": [
+                        {
+                            "sku": "1046776",
+                            "value": "型号"
+                        }
+                    ],
+                    "show_sku_img": "0"
+                }
+            ],
+            "fare": "0",
+            "baoyou": "",
+            "area_code": "",
+            "area_name": "",
+            "shipping_system_type": "",
+            "shipping_time": "",
+            "guonei_baoyou": "本商品满299元或2件包邮",
+            "jumei_price": "88",
+            "buyer_number": "1160",
+            "wish_number": "0",
+            "start_time": 1543888800,
+            "end_time": 1543975209,
+            "second_kill_time": "1543888800",
+            "status_num": "1",
+            "sale_short_name": "",
+            "sku_min_price": "88",
+            "sku_max_price": "88.00",
+            "product_detail_price_text": {
+                "title": "",
+                "is_click": "1"
+            },
+            "buyer_number_text": "1160人已购买",
+            "cart_action": "add_cart",
+            "cart_action_title": "加入购物车",
+            "is_dm": "0",
+            "show_sku": "1",
+            "stocks_alarm": "0",
+            "status_tag": "",
+            "right_top_icon": "",
+            "tag": "http://p0.jmstatic.com/mobile/deal/tag/v2/default/aca_brand_320_320.png",
+            "is_show_value_of_goods": "2",
+            "is_check_delivery_address": "0",
+            "is_show_delivery_address": "0",
+            "limit_buy_detail_sku_num": "10",
+            "is_show_score": "0",
+            "is_show_koubei": "0",
+            "is_show_comment": "0",
+            "is_show_new_comment_pop": "0",
+            "is_show_new_comment_jumei": "1",
+            "img": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_800_800.jpg?_ut=1503889513&imageView2/2/w/320/q/90",
+            "promotion_set": "item_id%3Dd181204p512794%26product_id%3D512794%26brand_id%3D679%26status%3Donsell%26display_price%3D%26show_category%3Ddeal%26category_ids%3D107%252C3%252C37%252C444%26sale_type%3D0%26sale_forms%3Dnormal%26warehouse_name%3DGZ07%252CCD06%252CSH09%252CTSN1%252CSZV3%26default_price%3D88%26jumei_price_list%255B1046776%255D%3D88%26type%3Djumei_deal",
+            "detail_page_show_promocard": "1",
+            "fen_qi": {
+                "period": [],
+                "quota_msg": "实际结算金额满150及以上支持分期购买",
+                "sale_msg": "",
+                "url_tag": "",
+                "status": "0",
+                "is_can_select": "1"
+            },
+            "icon_tag": [
+                {
+                    "status": "on",
+                    "label": "is_authorization",
+                    "name": "官方授权",
+                    "text": "由品牌官方授权予聚美优品售卖",
+                    "url_tag": "http://h5.jumei.com/product/brandAuthorization?img_url=http://images2.jumei.com/brand_authorization/679/authorization_679.jpg?t=1514859178",
+                    "group_num": "group_no_1",
+                    "is_request": "0"
+                },
+                {
+                    "status": "on",
+                    "label": "mobile_guarantee",
+                    "name": "质量保证",
+                    "text": "商品已在中华联合财产保险公司进行投保",
+                    "url_tag": "http://h5.jumei.com/guarantee/index",
+                    "group_num": "group_no_1",
+                    "is_request": "0"
+                },
+                {
+                    "status": "on",
+                    "label": "aca_detail",
+                    "name": "支持防伪验证",
+                    "text": "商品可进行真品防伪码查询验真",
+                    "url_tag": "http://h5.jumei.com/product/iconTagPage?label=aca_detail",
+                    "group_num": "group_no_1",
+                    "is_request": "0"
+                },
+                {
+                    "status": "on",
+                    "label": "refund",
+                    "name": "30天拆封无条件退货",
+                    "text": "本商品支持30天内拆封无条件退货",
+                    "url_tag": "http://h5.jumei.com/pages/2281",
+                    "group_num": "group_no_2",
+                    "url_tag_wx": "/page/returnRules/returnRules?type=30days",
+                    "is_request": "0"
+                },
+                {
+                    "status": "on",
+                    "label": "exchange_policy",
+                    "name": "",
+                    "text": "",
+                    "url_tag": "",
+                    "group_num": "group_no_2",
+                    "is_request": "0"
+                }
+            ],
+            "freight": {
+                "text": "本商品满299元或2件包邮（新疆部分区域除外）",
+                "href_url": "http://h5.jumei.com/pages/2280"
+            },
+            "show_single_skuview": 0,
+            "extra_data": "eyJzdGFyX3Nob3BfaWQiOiIiLCJzdGFyX3Nob3BfbmFtZSI6IiJ9",
+            "shop_info": [],
+            "activity_list": [],
+            "price_des": [],
+            "product_desc": "",
+            "relate_deal": [],
+            "trust_info": [],
+            "is_phone_cost": "0",
+            "detail_comment_num": "3",
+            "bottom_button": {
+                "type": "action_cart_direct",
+                "action": "add_cart",
+                "display_text": "加入购物车",
+                "shop_url": "",
+                "direct_action": "direct_pay",
+                "direct_text": "立即购买"
+            },
+            "is_first_click_window": "0",
+            "countdown_time": 48419,
+            "recommend_soldout_title": "商品售空啦，不如先看看别的吧？",
+            "recommend_soldout_status": "0",
+            "sellparams": "",
+            "jumei_counter_title": "",
+            "marquee": {
+                "is_show": 1,
+                "user_info": [
+                    {
+                        "nickname": "影***蜃",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513299-64.png?1462353457",
+                        "user_action": "购买了这个商品",
+                        "time_action": "刚刚",
+                        "trigger_time": "49"
+                    },
+                    {
+                        "nickname": "L***博",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513319-64.png?1462353458",
+                        "user_action": "购买了这个商品",
+                        "time_action": "1秒前",
+                        "trigger_time": "24"
+                    },
+                    {
+                        "nickname": "D***_",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513321-64.png?1462353458",
+                        "user_action": "加购了这个商品",
+                        "time_action": "刚刚",
+                        "trigger_time": "45"
+                    },
+                    {
+                        "nickname": "丶***O",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513337-64.png?1462353458",
+                        "user_action": "加购了这个商品",
+                        "time_action": "14秒前",
+                        "trigger_time": "21"
+                    },
+                    {
+                        "nickname": "哇***心",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513419-64.png?1462353460",
+                        "user_action": "加购了这个商品",
+                        "time_action": "45秒前",
+                        "trigger_time": "18"
+                    },
+                    {
+                        "nickname": "面***卷",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513528-64.png?1462353463",
+                        "user_action": "加购了这个商品",
+                        "time_action": "50秒前",
+                        "trigger_time": "54"
+                    },
+                    {
+                        "nickname": "泰***麻",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513540-64.png?1462353463",
+                        "user_action": "加购了这个商品",
+                        "time_action": "11秒前",
+                        "trigger_time": "42"
+                    },
+                    {
+                        "nickname": "D***允",
+                        "avatar_small": "http://images2.jumei.com/user_avatar/106/513/106513547-64.png?1462353463",
+                        "user_action": "购买了这个商品",
+                        "time_action": "16秒前",
+                        "trigger_time": "18"
+                    }
+                ],
+                "interval": "3"
+            },
+            "quiz_module_detail": "1",
+            "comment_list": "1",
+            "graphic_details_other": "1",
+            "url_schema": "jumeimall://page/alldetail?platform=wap&itemid=d181204p512794&type=jumei_deal&selltype=&selllabel=&sellparams=product_detail:1",
+            "yanzhidai": {
+                "is_yanzhidai_deal": "0",
+                "is_yanzhidai_main": "0"
+            },
+            "show_kou_bei_cate": "1",
+            "show_cart_big_img_ab": "a",
+            "show_cart_big_img_onoff": "0",
+            "show_comment_tab_dot": "0",
+            "customer_service": [],
+            "sku_no_stock_click": "1",
+            "is_service_info": "0",
+            "is_show_counter": "0",
+            "new_video_info": [],
+            "is_has_new_short_video": "0",
+            "is_jump_app": 0,
+            "is_limited": "0",
+            "hide_touch_header": "0",
+            "cart_host_h5": "//carth5.jumei.com",
+            "address_list_version": "1.0",
+            "is_login": 0,
+            "address_list": {
+                "code": "40000",
+                "action": "toast",
+                "message": "未登录",
+                "extra": {
+                    "timestamp": "2018-12-04 20:33:10"
+                },
+                "result": []
+            },
+            "default_address": {
+                "province_code": "11",
+                "province_name": "北京市",
+                "city_code": "110101",
+                "city_name": "市辖区",
+                "district_code": "110101",
+                "district_name": "东城区",
+                "structured_address": "北京市-市辖区-东城区"
+            },
+            "special_deal_id": "",
+            "seckill_car_domain": "//carth5.jumei.com",
+            "seckill_car_event_status": "1",
+            "is_dj_item": 0,
+            "comment_verify_code": "0c12c0a56968a14a63d24fc15eac74c7"
+        }
+    }
+}

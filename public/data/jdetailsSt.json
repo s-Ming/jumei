@@ -1,0 +1,331 @@
+{
+    "code": "0",
+    "msg": "",
+    "data": {
+        "type": "jumei_deal",
+        "item_id": "d181204p512794",
+        "qrshare_product_name": "Za隔离小伙伴分享装35g*2，修正肤色立竿见影！",
+        "short_name": "Za隔离小伙伴双支分享装",
+        "name": "Za隔离小伙伴分享装35g*2，修正肤色立竿见影！",
+        "product_id": "512794",
+        "brand_id": "679",
+        "category_id": "",
+        "function_ids": [
+            "21",
+            "35"
+        ],
+        "image_url_set": {
+            "dx_image": {
+                "320": "http://mp7.jmstatic.com/product/000/512/512794_std/512794_dx_640_400.jpg@base@tag=imgScale&w=320&q=90?v=1502357100",
+                "480": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_dx_640_400.jpg?v=1502357100&imageView2/2/w/480/q/90",
+                "640": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_dx_640_400.jpg?v=1502357100&imageView2/2/w/640/q/90",
+                "800": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_dx_640_400.jpg?v=1502357100&imageView2/2/w/800/q/90"
+            },
+            "single_many": [
+                {
+                    "320": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/320/q/90",
+                    "480": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/480/q/90",
+                    "640": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/640/q/90",
+                    "800": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/800/q/90"
+                },
+                {
+                    "320": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_1_1000_1000.jpg?v=1503889513&imageView2/2/w/320/q/90",
+                    "480": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_1_1000_1000.jpg?v=1503889513&imageView2/2/w/480/q/90",
+                    "640": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1_1000_1000.jpg?v=1503889513&imageView2/2/w/640/q/90",
+                    "800": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_1_1000_1000.jpg?v=1503889513&imageView2/2/w/800/q/90"
+                },
+                {
+                    "320": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_2_1000_1000.jpg?v=1503889513&imageView2/2/w/320/q/90",
+                    "480": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_2_1000_1000.jpg?v=1503889513&imageView2/2/w/480/q/90",
+                    "640": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_2_1000_1000.jpg?v=1503889513&imageView2/2/w/640/q/90",
+                    "800": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_2_1000_1000.jpg?v=1503889513&imageView2/2/w/800/q/90"
+                },
+                {
+                    "320": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_3_1000_1000.jpg?v=1503889513&imageView2/2/w/320/q/90",
+                    "480": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_3_1000_1000.jpg?v=1503889513&imageView2/2/w/480/q/90",
+                    "640": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_3_1000_1000.jpg?v=1503889513&imageView2/2/w/640/q/90",
+                    "800": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_3_1000_1000.jpg?v=1503889513&imageView2/2/w/800/q/90"
+                }
+            ]
+        },
+        "tag": "http://p0.jmstatic.com/mobile/deal/tag/v2/default/aca_brand_320_320.png",
+        "show_category": "deal",
+        "has_short_video": "0",
+        "guarantee": {
+            "title": "聚美保证",
+            "guarantee_list": [
+                {
+                    "img": {
+                        "320": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/genuine_guarantee.png?imageView2/2/w/25/q/90",
+                        "480": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/genuine_guarantee.png?imageView2/2/w/38/q/90",
+                        "640": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/genuine_guarantee.png?imageView2/2/w/51/q/90",
+                        "800": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/genuine_guarantee.png?imageView2/2/w/64/q/90"
+                    },
+                    "label": "genuine_guarantee",
+                    "text": "招募优质商家,确保正品",
+                    "name": "正品采购",
+                    "href_url": "http://h5.jumei.com/activity/detailv2?label=guarantee_app&type=jmstore"
+                },
+                {
+                    "img": {
+                        "320": "http://mp5.jmstatic.com/mobile/other/detail_page_guarantee/goods_union.png?imageView2/2/w/25/q/90",
+                        "480": "http://mp5.jmstatic.com/mobile/other/detail_page_guarantee/goods_union.png?imageView2/2/w/38/q/90",
+                        "640": "http://mp5.jmstatic.com/mobile/other/detail_page_guarantee/goods_union.png?imageView2/2/w/51/q/90",
+                        "800": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/goods_union.png?imageView2/2/w/64/q/90"
+                    },
+                    "label": "goods_union",
+                    "text": "官方授权，防伪码验真",
+                    "name": "真品联盟",
+                    "href_url": "http://h5.jumei.com/activity/detailv2?label=aca_app&type=jmstore"
+                },
+                {
+                    "img": {
+                        "320": "http://mp5.jmstatic.com/mobile/other/detail_page_guarantee/mobile_fahuo6.png?imageView2/2/w/25/q/90",
+                        "480": "http://mp4.jmstatic.com/mobile/other/detail_page_guarantee/mobile_fahuo6.png@base@tag=imgScale&w=38&q=90",
+                        "640": "http://mp5.jmstatic.com/mobile/other/detail_page_guarantee/mobile_fahuo6.png?imageView2/2/w/51/q/90",
+                        "800": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/mobile_fahuo6.png?imageView2/2/w/64/q/90"
+                    },
+                    "label": "mobile_fahuo6",
+                    "text": "6小时急速闪电发货",
+                    "name": "闪电发货",
+                    "href_url": "http://h5.jumei.com/activity/detailv2?label=guarantee_app&type=jmstore#3010949"
+                },
+                {
+                    "img": {
+                        "320": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/refund_30.png?imageView2/2/w/25/q/90",
+                        "480": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/refund_30.png?imageView2/2/w/38/q/90",
+                        "640": "http://mp6.jmstatic.com/mobile/other/detail_page_guarantee/refund_30.png?imageView2/2/w/51/q/90",
+                        "800": "http://mp5.jmstatic.com/mobile/other/detail_page_guarantee/refund_30.png?imageView2/2/w/64/q/90"
+                    },
+                    "label": "refund_30",
+                    "text": "本商品支持30天无条件退货",
+                    "name": "30天退货",
+                    "href_url": "http://h5.jumei.com/pages/2281"
+                }
+            ]
+        },
+        "rating": "4.8",
+        "product_attr_aca": "b",
+        "shopname": "本商品由 聚美优品 拥有和销售",
+        "brand_name": "姬芮",
+        "description_url_set": {
+            "product": {
+                "480": "http://s.h5.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&t_lang=touch&product_attr_aca=b&site=bj&__client_v=1.0&__platform=wap&share_source=app"
+            },
+            "detail": {
+                "480": "http://s.h5.jumei.com/mobile/deal/product_info?type=jumei_deal&item_id=d181204p512794&t_lang=touch&product_attr_aca=b&site=bj&__client_v=1.0&__platform=wap"
+            },
+            "pictures": {
+                "480": "http://s.h5.jumei.com/mobile/deal/product_pics?type=jumei_deal&item_id=d181204p512794&t_lang=touch&product_attr_aca=b&site=bj&__client_v=1.0&__platform=wap"
+            },
+            "usage": {
+                "480": "http://s.h5.jumei.com/mobile/deal/product_usage?type=jumei_deal&item_id=d181204p512794&t_lang=touch&product_attr_aca=b&site=bj&__client_v=1.0&__platform=wap"
+            },
+            "union": {
+                "480": "http://s.h5.jumei.com/s/product_union/jumei_deal/d181204p512794.html?t_lang=touch&product_attr_aca=b&site=bj&__client_v=1.0&__platform=wap&__from_app=1"
+            }
+        },
+        "description_url": {
+            "product": "http://s.h5.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&t_lang=touch&product_attr_aca=b&site=bj&share_source=app",
+            "usage": "http://s.h5.jumei.com/mobile/deal/product_usage?type=jumei_deal&item_id=d181204p512794&t_lang=touch&product_attr_aca=b&site=bj",
+            "union": "http://s.h5.jumei.com/s/product_union/jumei_deal/d181204p512794.html?t_lang=touch&product_attr_aca=b&site=bj&__from_app=1&__from_app=1"
+        },
+        "properties": [
+            {
+                "property_id": "4",
+                "name": "商品名称",
+                "value": "Za隔离小伙伴双支分享装"
+            },
+            {
+                "property_id": "5",
+                "name": "品牌",
+                "value": "姬芮"
+            },
+            {
+                "property_id": "6",
+                "name": "功效",
+                "value": "防晒,隔离"
+            },
+            {
+                "name": "产品规格",
+                "value": "35g×2"
+            },
+            {
+                "name": "生产地区",
+                "value": "上海"
+            },
+            {
+                "name": "适用人群",
+                "value": "需要隔离污染、紫外线和彩妆的人群"
+            },
+            {
+                "name": "保质期限",
+                "value": "5年（具体日期以收到实物为准）"
+            },
+            {
+                "name": "产品包装",
+                "value": "全新正品，有外盒"
+            },
+            {
+                "name": "注意事项",
+                "value": "因个人肤质不同，如有不适请立即停止使用"
+            }
+        ],
+        "price_ext_title": "",
+        "nav": {
+            "wifi": "detail",
+            "default": "introduction"
+        },
+        "ext_desc": {
+            "discount": "5.7折/今日团购",
+            "sku_title": "",
+            "sku_button": "",
+            "price_bottom": ""
+        },
+        "guonei_baoyou": "满299元或2件包邮",
+        "refund_policy": "30days",
+        "merchant_id": "0",
+        "store_id": "62",
+        "bonded_area_id": "",
+        "size": [],
+        "is_auth_brand": "0",
+        "category_ids": "107,3,37,444",
+        "sale_forms": "normal",
+        "warehouse_name": "",
+        "shipping_system_id": "0",
+        "guo_min_v3_3": "37",
+        "ext_info": [],
+        "recommend_title": "您也许还喜欢",
+        "special_tags": {
+            "jm_owner": "聚美自营",
+            "book": ""
+        },
+        "scan_control": {
+            "is_show_scan_btn": "1",
+            "is_allow_add_scan": "1"
+        },
+        "fav_enabled": "1",
+        "video_info": [],
+        "share_info": [
+            {
+                "platform": "weibo",
+                "link": "http://h5.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "text": "【正品低价、极速海淘】仅售88！Za隔离小伙伴双支分享装 http://h5.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "image_url_set": {
+                    "320": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/320/q/90",
+                    "480": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/480/q/90",
+                    "640": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/640/q/90",
+                    "800": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/800/q/90"
+                }
+            },
+            {
+                "platform": "wechat",
+                "link": "http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "title": "【正品低价、极速海淘】仅售88！Za隔离小伙伴双支分享装",
+                "text": "Za隔离小伙伴分享装35g*2，修正肤色立竿见影！",
+                "image_url_set": {
+                    "320": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/320/q/90",
+                    "480": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/480/q/90",
+                    "640": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/640/q/90",
+                    "800": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/800/q/90"
+                }
+            },
+            {
+                "platform": "sms",
+                "text": "【正品低价、极速海淘】仅售88！Za隔离小伙伴双支分享装 http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app"
+            },
+            {
+                "platform": "email",
+                "link": "http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "title": "Za隔离小伙伴双支分享装",
+                "text": "【正品低价、极速海淘】仅售88！Za隔离小伙伴双支分享装 http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app"
+            },
+            {
+                "platform": "others",
+                "link": "http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "title": "【正品低价、极速海淘】仅售88！Za隔离小伙伴双支分享装",
+                "text": "Za隔离小伙伴分享装35g*2，修正肤色立竿见影！ http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "image_url_set": {
+                    "320": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/320/q/90",
+                    "480": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/480/q/90",
+                    "640": "http://mp5.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/640/q/90",
+                    "800": "http://mp6.jmstatic.com/product/000/512/512794_std/512794_1000_1000.jpg?v=1503889513&imageView2/2/w/800/q/90"
+                }
+            },
+            {
+                "platform": "qzone",
+                "link": "http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "title": "【正品低价、极速海淘】仅售88！Za隔离小伙伴双支分享装",
+                "text": "Za隔离小伙伴分享装35g*2，修正肤色立竿见影！",
+                "image_url_set": {
+                    "url": {
+                        "320": "http://p4.jmstatic.com/product/000/512/512794_std/512794_160_160.jpg",
+                        "480": "http://p4.jmstatic.com/product/000/512/512794_std/512794_200_200.jpg",
+                        "640": "http://p4.jmstatic.com/product/000/512/512794_std/512794_200_200.jpg",
+                        "800": "http://p4.jmstatic.com/product/000/512/512794_std/512794_350_350.jpg"
+                    }
+                }
+            },
+            {
+                "platform": "qqfriends",
+                "link": "http://1838.fd.jumei.com/product/detail?type=jumei_deal&item_id=d181204p512794&share_source=app",
+                "title": "【正品低价、极速海淘】仅售88！Za隔离小伙伴双支分享装",
+                "text": "Za隔离小伙伴分享装35g*2，修正肤色立竿见影！",
+                "image_url_set": {
+                    "url": {
+                        "320": "http://p4.jmstatic.com/product/000/512/512794_std/512794_160_160.jpg",
+                        "480": "http://p4.jmstatic.com/product/000/512/512794_std/512794_200_200.jpg",
+                        "640": "http://p4.jmstatic.com/product/000/512/512794_std/512794_200_200.jpg",
+                        "800": "http://p4.jmstatic.com/product/000/512/512794_std/512794_350_350.jpg"
+                    }
+                }
+            }
+        ],
+        "tag_ids": [],
+        "tax_info": [
+            "财政部、海关总署、国家税务总局发布跨境电子商务零售进口税收政策，跨境电商综合税需按一般贸易增值税及消费税税额的70%征收。"
+        ],
+        "verify_code": "0c12c0a56968a14a63d24fc15eac74c7",
+        "is_pop": "0",
+        "sale_short_name": "",
+        "is_simple": "0",
+        "description_info": {
+            "hash_id": "d181204p512794",
+            "description": "<img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887587.2727.jpg\" /><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887587.6382.jpg\" /><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887588.0872.jpg\" /><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887588.4287.jpg\" /><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887588.699.jpg\" /><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887589.0247.jpg\" /><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887589.3471.jpg\" />",
+            "description_images": "<p>\r\n\t<img src=\"http://p12.jmstatic.com/html_editor/201708/28/1503890231287.jpg\" alt=\"\" /> \r\n</p>\r\n<p>\r\n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">Za姬芮家隔离小伙伴分享装(新能真皙美白隔离霜35g×2)，令肌肤凭借自身活力自然焕发动人光泽。<img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887894.3878.jpg\" /></span> \r\n</p>\r\n<p>\r\n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">让你的肌肤带上隔离罩。</span> \r\n</p>\r\n<p>\r\n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\"><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887904.6819.jpg\" /></span> \r\n</p>\r\n<p>\r\n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">令肌肤凭借自身活力自然焕发动人光泽。</span> \r\n</p>\r\n<p>\r\n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\"><img alt=\"\" src=\"http://p12.jmstatic.com/banner/201708/28/1503887877.4451.jpg\" style=\"white-space:normal;\" /><br />\r\n</span> \r\n</p>\r\n<p>\r\n\t<span style=\"font-family:'Microsoft YaHei';\"><span style=\"font-size:16px;line-height:24px;\">产品实际尺寸示意图，手工测量会有少许误差，请以收到实物为准。</span></span> \r\n</p>\r\n<p>\r\n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\"></span> \r\n</p>",
+            "description_usage": "<p>\r\n\t在使用完乳液或面霜后，使用隔离，进行上妆前的打底和隔离，并兼具隔离城市污染和紫外线的功效。\r\n</p>\r\n<p>\r\n\t<strong>温馨提示：</strong>护肤品成分各有不同，敏感性肌肤的人士请先在耳后进行测试后再使用哦！\r\n</p>\n<p>本产品适宜存放在阴凉，干燥处，请尽量避免阳光直射。</p>",
+            "is_authorization": "1",
+            "authorization_image_url": "1",
+            "global_authorization_image_url": "",
+            "authorization_description": "",
+            "other_image": {
+                "other_domestic": {
+                    "1": "/brand_authorization/brand_authorization/679/other_authorization_679_2.jpg",
+                    "2": "/brand_authorization/brand_authorization/679/other_authorization_679_3.jpg"
+                },
+                "other_overseas": []
+            },
+            "is_authorization_global": 0,
+            "brand_id": "679",
+            "authorization_image": {
+                "domestic": "/brand_authorization/679/authorization_679.jpg?t=1514859178",
+                "overseas": null
+            },
+            "product_id": "512794",
+            "shipping_system_id": "0",
+            "authorization_image_url_new": [
+                "http://images2.jumei.com/brand_authorization/679/authorization_679.jpg?t=1514859178",
+                "http://images2.jumei.com/brand_authorization/brand_authorization/679/other_authorization_679_2.jpg",
+                "http://images2.jumei.com/brand_authorization/brand_authorization/679/other_authorization_679_3.jpg"
+            ]
+        },
+        "consumer_notice_data": {
+            "pic_file": "",
+            "page_id": ""
+        },
+        "hide_download_banner": "0",
+        "gohome": "//h5.jumei.com/",
+        "register_send_promocard": "0",
+        "is_hide_partner_info": "0"
+    }
+}
