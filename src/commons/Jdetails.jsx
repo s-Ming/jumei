@@ -19,7 +19,9 @@ class Jdetails extends React.Component{
 			this.setState({
 				goods : res.data
 			})
-			console.log(this.state.goods)
+			console.log(this.state.goods.data.map((item,idx)=>{
+				return item.name
+			}))
 		})
 		.catch((err)=>{
 			console.log(err)
