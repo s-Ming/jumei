@@ -9,7 +9,7 @@
 	left:0;
 	right:0;
 	i,span{
-		font-size: rem(18px);
+		font-size: rem(14px);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -17,5 +17,6 @@
 	}
 	i{
 		color:#ccc;
+		font-size: rem(20px);
 	}
 }

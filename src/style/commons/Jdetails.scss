@@ -1,0 +1,138 @@
+.Jdeta{
+	margin-top:rem(42px);
+	.Jdeta_img{
+		width:rem(375px);
+		position: relative;
+		.Jdeta_i1{
+			position: absolute;
+			top:0;
+			left:0;
+			width:rem(60px);
+		}
+		.Jdeta_i2{
+			width:rem(375px);
+		}
+	}
+	.Jdeta_price{
+		width:rem(375px);
+		height:rem(28px);
+		line-height: rem(28px);
+		span,del{
+			font-size: rem(14px);
+			padding:0 rem(10px);
+		}
+		
+		span:nth-child(1){
+			float:left;
+			font-size: rem(26px);
+			color:#f33873;
+		}
+		del:nth-child(2){
+			float:left;
+		}
+		span:nth-child(3){
+			float:right;
+		}
+	}
+	.Jdeta_name{
+		padding: rem(5px) rem(10px);
+		span{
+			border-radius: 5px;
+			font-size: rem(14px);
+			background: #f33873;
+			color:#fff;
+			margin-right: 5px;
+		}
+		font-size: rem(14px);
+	}
+	.Jdeta_c{
+		padding:0 rem(10px);
+		.Jdeta_cu{
+			border-top:1px solid #ccc;
+			padding: rem(5px) 0;
+			.Jdeta_cuxiao{
+				display: flex;
+				justify-content:space-between;
+				
+				span,i{
+					font-size:rem(14px);
+				}
+				div{
+					p{
+						font-size:rem(14px);
+						margin:rem(5px) 0;
+						span{
+							font-size:rem(14px);
+							background: #f33873;
+							border-radius: 5px;
+							margin:0 rem(5px);
+							color:#fff;
+						}
+					}
+				}
+			}
+			.Jdeta_man1{
+				padding-left:rem(77px);
+				font-size:rem(14px);
+				margin:rem(10px) 0;
+				span,i{
+					font-size:rem(14px);
+				}
+				span{
+					background: #f33873;
+					border-radius: 5px;
+					margin:0 rem(5px);
+					color:#fff;
+				}
+				i{
+					float:right;
+				}
+			}
+			.Jdeta_man2{
+				padding-left:rem(77px);
+				font-size:rem(14px);
+			}
+		}
+
+	}
+	.conment_title{
+		margin-top:rem(10px);
+		font-size: rem(14px);
+		padding:0 rem(10px);
+
+	}
+	.Jdeta_ping{
+		padding: 0;
+		margin-bottom: rem(80px);
+		.Jdeta_pinglun{
+			.Jdeta_top{
+				.Jdeta_top_l{
+
+				}
+				.Jdeta_top_r{
+
+				}
+			}
+		}
+	}
+	.Jdeta_button{
+
+		position: fixed;
+		bottom:0;
+		left:0;
+		right:0;
+		display: flex;
+		justify-content: space-between;
+		z-index: 999px;
+		background: #fff;
+		.Jdeta_button_d1{
+			width:34%;
+		}
+		.Jdeta_button_d2{
+			width:34%;
+		}
+		.Jdeta_button_d3{
+			width:34%;
+		}
+	}
+}
