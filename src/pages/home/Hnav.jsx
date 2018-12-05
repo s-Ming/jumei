@@ -6,6 +6,7 @@ class Hnav extends React.Component{
         this.props = props;
     };
     render(){
+
         return(
             <div id="nav-inner" className="headerNav clearfix" >
                 <p className="navTitle nt_deal nav_select">

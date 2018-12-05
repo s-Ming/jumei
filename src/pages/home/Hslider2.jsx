@@ -1,8 +1,7 @@
 import React from "react";
-import {connect} from 'react-redux';
-// import Hslider2 from "./Hslider2.jsx";
+import {connect} from "react-redux";
 
-class Hslider extends React.Component{
+class Hslider2 extends React.Component{
     constructor(props){
         super(props);
         this.props = props; 
@@ -15,29 +14,15 @@ class Hslider extends React.Component{
 
 
     sliderlistChange(arr) {
-        if(arr==[]){
-            return
-        }
-        let sliderHtml = arr.map((item,index)=>{
-            /*console.log(item);*/
+        let sliderHtml2 = item.sub_categories.map((item,index)=>{
+            console.log(item);
 
-            return <li key={index}>{item.name}
-                        <i className="fa fa-angle-down" aria-hidden="true"
-                        onClick={
-                      this.props.toggleNav2.bind(this)
-                    }
-                        ></i>
+            return   <li key={index}>{item.name} </li>}
 
-
-
-                       
-                   </li>;
 
         })
-        return sliderHtml ;
-
+        return sliderHtml2 ;
     }
-
 
 
     getInfo(){
@@ -59,22 +44,13 @@ class Hslider extends React.Component{
 
     render(){
         return(
-            <div style={{"display":this.props.isShowNav?'block':'none'}}>
-                <ul className="slider"> 
-
-                    <div className="search">
-                        <input placeholder="搜索商品、 分类 、功效"/>   
-                        <span onClick={
-                      this.props.toggleNav.bind(this)
-                    }>返回</span>           
-                    </div>
+            <div style={{"display":this.props.isShowNav2?"block":"none"}}>
+                <ul className="slider2"> 
 
                      {this.sliderlistChange(this.state.sliderlist)}
                   
                 </ul>
 
-               
-                    <div className="mask"></div>
             </div>
             
         )
@@ -91,27 +67,18 @@ export default connect((state)=>{
     return state
 },(dispatch)=>{
     return {
-        onIncreaseClick() {
+         onIncreaseClick() {
             dispatch("increaseAction")
         },
-        toggleNav(){
-          console.log(this)
-          dispatch({
-              type:"toggleNav",
-              isShowNav:!this.props.isShowNav
-          })
-       },
-
-       toggleNav2(){
-          console.log(this)
-          dispatch({
-              type:"toggleNav2",
-              isShowNav2:!this.props.isShowNav2
-          })
-       }
-
+        toggleNav2(){
+            console.log(this)
+            dispatch({
+                type:'toggleNav2',
+                isShowNav2:!this.props.isShowNav2
+            })
+        }
     }
-}) (Hslider);
+ })   (Hslider2);
 
 
 
@@ -149,5 +116,3 @@ export default connect((state)=>{
 //         })
 //         return sliderHtml2 ;   
 //     }
-
- // <img src={item.image_url_set.dx_image.url[320]} alt="" /> 

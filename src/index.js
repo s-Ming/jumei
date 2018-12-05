@@ -18,35 +18,43 @@ import Home from './pages/home/Home.jsx';
 
 // import App from "./App.js";
 
-
-
-
 import Jheader from './commons/Jheader.jsx';
 // import Jfooter from './commons/Jfooter.jsx';
 import Jdetails from './commons/Jdetails.jsx';
-
 
 import axios from 'axios';
 React.axios = axios;
 
 
+
+
 const store = createStore((state = {
-    title:"微博",
-    isShowNav: false
+
+    title:"聚美优品",
+    isShowNav: false,
+    isShowNav2:false
+
 }, action) => {
+    
     switch (action.type) {
-        case 'INCREMENT':
-            return state + 1
-        case 'DECREMENT':
-            return state - 1
+        case 'toggleNav':
+            return {
+                ...state,
+                isShowNav:action.isShowNav
+            }
+        case 'toggleNav2':
+            return {
+                ...state,
+                isShowNav2:action.isShowNav2
+            }
         default:
             return state
     }
 })
 
 ReactDOM.render(
-	<Provider>
-		<Jdetails />
+	<Provider store={store}>
+		 <Home name='首页'/>
 	</Provider>, 
 	document.getElementById('root')
 	);

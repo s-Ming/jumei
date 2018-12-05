@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Hsearch from './Hsearch.jsx';
 import Hnav from './Hnav.jsx';
 import Hlist from './Hlist.jsx';
+import {connect} from 'react-redux';
+
 
 
 class Home extends Component {
@@ -18,7 +20,11 @@ class Home extends Component {
     tabChange(arr) {
         let tabHtml = arr.map((item,index)=>{
             console.log(item);
-            return <li key={index}>{item.title}</li>;
+            return <li key={index} 
+                onClick={
+                          this.props.toggleNav.bind(this)
+                        }
+            >{item.title}</li>;
         })
         return tabHtml;
     }
@@ -40,4 +46,20 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default connect((state)=>{
+    return state
+},
+
+(dispatch)=>{
+    return {
+       toggleNav(){
+          console.log(this)
+          dispatch({
+              type:"toggle",
+              isShowNav:!this.props.isShowNav
+          })
+       }
+    }
+
+}
+)(Home) ;

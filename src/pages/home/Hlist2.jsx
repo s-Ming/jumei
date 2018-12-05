@@ -17,7 +17,7 @@ class Hlist extends React.Component{
             return
         }
         let hlistHtml = arr.map((item,index)=>{
-            /*console.log(item)*/
+            console.log(item)
             return <li key={index}>
 
                 <div>
@@ -61,7 +61,7 @@ class Hlist extends React.Component{
                 <ul className="homelist">
 
                     {this.hlistChange(this.state.homelist)}
-                    
+                    }
                 </ul>
             </div>
         )
