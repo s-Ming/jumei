@@ -5,7 +5,7 @@ var app = express();
 app.get("/",(req,res)=>{
     // cors
     res.append("Access-Control-Allow-Origin","*");
-    request.get("http://h5.jumei.com/index/requestDelegate?url=http%3A%2F%2Fmobile.jumei.com%2Fmsapi%2Fmall%2Fallcategories.json",(err,response,body)=>{
+    request.get("http://h5.jumei.com/index/ajaxDealactList?card_id=4057&client_v=1&page=1&platform=wap&type=formal&page_key=",(err,response,body)=>{
         // console.log(body);
         res.send(body);
     })
