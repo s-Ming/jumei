@@ -9,7 +9,7 @@ class Mregister extends React.Component{
         this.state = {};
         this.props = props;
         this.state = {
-            homelist:[]
+          
         }
     }
 

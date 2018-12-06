@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 class Hlist extends React.Component{
     constructor(props){
@@ -10,7 +11,7 @@ class Hlist extends React.Component{
     }
 
     
-
+  
 
     hlistChange(arr) {
         if (arr==[]){
@@ -18,13 +19,14 @@ class Hlist extends React.Component{
         }
         let hlistHtml = arr.map((item,index)=>{
             /*console.log(item)*/
-            return <li key={index}>
-
+            return <li key={index} >
+                <Link to="/xiangqing">
                 <div>
                     <p>{item.name}</p>
                     <p>￥<span>{item.jumei_price}</span><span>￥{item.market_price}</span></p>
                     <p>{item.product_desc}</p>
-                </div>     
+                </div> 
+                </Link>    
             </li>;
         })
         return hlistHtml;

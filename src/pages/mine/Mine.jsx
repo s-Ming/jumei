@@ -2,8 +2,9 @@ import Jfooter from '../../commons/Jfooter.jsx'
 
 import React, { Component } from 'react';
 // import { Route } from "react-router-dom";
-import Mlogin from './Mlogin.jsx';
+// import Mlogin from './Mlogin.jsx';
 // import Mregister from './Mregister.jsx';
+import Mcontent from './Mcontent.jsx';
 
 import {connect} from 'react-redux';
 
@@ -37,10 +38,8 @@ class Mine extends Component {
                
                   
                 
-
-              
-                
-                <Mlogin></Mlogin>
+         
+                <Mcontent></Mcontent>
 
 
                  

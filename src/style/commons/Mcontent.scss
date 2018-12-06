@@ -1,0 +1,92 @@
+
+.my{
+    height:rem(850px);
+    .tochoose{
+        width:100%;
+        height:rem(160px);
+        background:#fc5e9f;
+        text-align:center;
+        padding-top:rem(20px);
+        .man{
+            width:rem(80px);
+            height:rem(80px);
+            background:#fff;
+            border-radius:50%;
+            margin:0 auto;
+            i{
+                line-height:rem(80px);
+                color:#fc5e9f;
+            }
+        }
+        span{
+            color:#fff;
+            font-size:rem(26px);
+            font-weight:bold;
+            margin:0 rem(15px);
+        }
+    }
+
+
+    .myInfo{
+        background:#eee;
+        color:#666;
+        // margin-bottom:rem(20px);
+
+        .menu,.property{
+            background:#fff;
+            margin-top:rem(15px);
+            font-size:rem(16px);
+            .menu1,.property1{
+                display:flex;
+                justify-content:space-between;
+                padding:rem(10px);
+                border-bottom:1px solid #eee;
+                i:last-of-type{
+                    margin-left:rem(5px);
+                }
+                i:first-of-type{
+                    margin-right:rem(5px);
+                }
+                p:nth-of-type(2){
+                    color:#999;
+                }
+            }
+            .menu2,.property2{
+                display:flex;
+                justify-content:space-between;
+                li{
+                    display:flex;
+                    justify-content:space-between;
+                    flex-direction:column;
+                    text-align:center;
+                    align-items:center;
+                    padding:rem(15px);
+                    i{
+                        margin-bottom:rem(10px);
+                    }
+                }
+            }
+        }
+        .others{
+            height:rem(210px);
+            background:#fff;
+            font-size:rem(16px);
+            margin-top:rem(15px);
+            // margin-bottom:rem(15px);
+                li{
+                    display:flex;
+                    justify-content:space-between;
+                    padding:rem(10px);
+                    i{
+                        margin-right:rem(10px);
+                    }
+                }
+        }
+        .tel{
+            font-size:rem(14px);
+            color:#666;
+            padding:rem(20px) 0 rem(100px) rem(20px) ;
+        }
+    }
+
+}

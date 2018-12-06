@@ -9,7 +9,7 @@ class Mlogin extends React.Component{
         this.state = {};
         this.props = props;
         this.state = {
-            homelist:[]
+            
         }
     }
 
@@ -48,7 +48,7 @@ export default connect((state)=>{
     }
 
 }
-)(Mlogin) ;;
+)(Mlogin) ;
  
 
 
