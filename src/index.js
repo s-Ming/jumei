@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// 路由
 import {HashRouter as Router , Route , Link} from 'react-router-dom';
 import { createStore } from 'redux';
 import { Provider, connect } from 'react-redux';
@@ -16,7 +17,7 @@ import Home from './pages/home/Home.jsx';
 // import Jheader from './commons/Jheader.jsx';
 // import Jfooter from './commons/Jfooter.jsx';
 
-// import App from "./App.js";
+import App from "./App.js";
 
 import Jheader from './commons/Jheader.jsx';
 // import Jfooter from './commons/Jfooter.jsx';
@@ -61,7 +62,10 @@ const store = createStore((state = {
 
 ReactDOM.render(
 	<Provider store={store}>
-		 <Home name='首页'/>
+		<Router>
+			<App />
+		</Router>
+		
 	</Provider>, 
 	document.getElementById('root')
 	);

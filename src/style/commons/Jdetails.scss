@@ -1,5 +1,6 @@
 .Jdeta{
 	margin-top:rem(42px);
+	// padding-top:rem(42px);
 	.Jdeta_img{
 		width:rem(375px);
 		position: relative;
@@ -122,17 +123,30 @@
 		left:0;
 		right:0;
 		display: flex;
-		justify-content: space-between;
+		// justify-content: space-between;
 		z-index: 999px;
 		background: #fff;
+		font-size:rem(14px);
+		height:rem(50px);
 		.Jdeta_button_d1{
 			width:34%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			font-size:rem(14px);
 		}
 		.Jdeta_button_d2{
 			width:34%;
+			background: #fff1f6;
+			color:#fe4070;
+			border:none;
 		}
 		.Jdeta_button_d3{
 			width:34%;
+			background: #fe4070;
+			color:#fff;
+			border:none;
 		}
 	}
 }

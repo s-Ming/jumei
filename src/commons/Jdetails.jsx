@@ -6,7 +6,6 @@ class Jdetails extends React.Component{
 	constructor(props) {
 	  	super(props);
 		this.props = props;
-		this.str = `item_id=${this.props.id}&type=${this.props.type}`;
 	  	this.state = {
 	  		goods:{},
 	  		dy:{},
@@ -14,8 +13,6 @@ class Jdetails extends React.Component{
 	  		shuoming:false
 
 	  	};
-
-	  	console.log(this.str)
 	};
 
 	getDynamicData(){//动态数据
@@ -37,7 +34,7 @@ class Jdetails extends React.Component{
 			this.setState({
 				dy : res.data.data
 			})
-			
+			console.log(this.state)
 		})
 		.catch((err)=>{
 			console.log(err)
@@ -144,13 +141,12 @@ class Jdetails extends React.Component{
 	car(){
 		return(
 			<div className="Jdeta_button">
-				<div className="Jdeta_button_d1">
-					<i className="fa fa-angle-car" aria-hidden="true"></i>
+				<div className="Jdeta_button_d1" onClick={this.goPage.bind(this,'d1')}>
+					<i className="fa fa-shopping-cart" aria-hidden="true"></i>
 					购物车
 				</div>
-				<button className="Jdeta_button_d2">加入购物车</button>
-				<button className="Jdeta
-				_button_d3">立即购买</button>
+				<button className="Jdeta_button_d2" onClick={this.goPage.bind(this,'d2')}>加入购物车</button>
+				<button className="Jdeta_button_d3" onClick={this.goPage.bind(this,'d3')}>立即购买</button>
 			</div>
 		)
 	}
@@ -164,6 +160,21 @@ class Jdetails extends React.Component{
 			})
 		}
 	}
+
+	//点击跳转到相应页面
+	goPage(go){
+		if(go == 'd1'){
+			//跳转到购物车页
+			
+
+		}else if(go == 'd2'){
+			//加入购物车
+		}else if(go == 'd3'){
+			//根据登录状态跳转到相应页面
+		}
+	}
+
+
 
 	render(){
 		

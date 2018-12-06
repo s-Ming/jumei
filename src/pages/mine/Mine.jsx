@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 // import { Route } from "react-router-dom";
 import Mlogin from './Mlogin.jsx';
@@ -32,14 +33,14 @@ class Mine extends Component {
     render() {
         return (
             <div>
-                <Hsearch></Hsearch>
-                <Hnav></Hnav>     
+               
+                  
                 <ul className="tablist">
                     {this.tabChange(this.state.tablist)}
                 </ul>  
 
     
-                <Hlogin></Hlogin>   
+                 
 
             </div>
         );
@@ -70,3 +71,5 @@ export default connect((state)=>{
 
 }
 )(Mine) ;
+
+

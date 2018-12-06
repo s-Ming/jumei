@@ -19,7 +19,7 @@ class Mregister extends React.Component{
         return(
             <div>
                 <h4>注册</h4> 
-                <input type="" name="" value="">
+                <input type="" name="" value="" />
             </div>
         )
     }
