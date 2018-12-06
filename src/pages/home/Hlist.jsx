@@ -1,4 +1,6 @@
 import React from "react";
+import {connect} from 'react-redux';
+
 
 class Hlist extends React.Component{
     constructor(props){
@@ -70,7 +72,23 @@ class Hlist extends React.Component{
 
 
 }
-export default Hlist;
+export default connect((state)=>{
+    return state
+},
+
+(dispatch)=>{
+    return {
+       togglelist(){
+          console.log(this)
+          dispatch({
+              type:"togglelist",
+              isShowlist:!this.props.isShowlist
+          })
+       }
+    }
+
+}
+)(Hlist) ;;
  
 
 

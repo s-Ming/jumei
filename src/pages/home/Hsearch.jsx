@@ -1,6 +1,8 @@
 import React from "react";
 import Hslider from './Hslider.jsx';
 import {connect} from 'react-redux';
+import Hsearchto from './Hsearchto.jsx';
+
 
 class Hsearch extends React.Component{
     constructor(props) {
@@ -12,7 +14,9 @@ class Hsearch extends React.Component{
         return(
             <div>
                <div className="search">
-                  <input placeholder="搜索商品  分类  功效"/>
+                  <input  onClick={
+                      this.props.toggleSearch.bind(this)
+                    } placeholder="搜索商品  分类  功效"/>
                     
                   <i className="fa fa-bars" aria-hidden="true"
                     onClick={
@@ -20,8 +24,9 @@ class Hsearch extends React.Component{
                     }>
                   </i>
                </div>
-               
+               <Hsearchto></Hsearchto>
                <Hslider></Hslider> 
+              
             </div>
             )
     }
@@ -40,6 +45,13 @@ export default connect((state)=>{
           dispatch({
               type:"toggleNav",
               isShowNav:!this.props.isShowNav
+          })
+       },
+        toggleSearch(){
+          console.log(this)
+          dispatch({
+              type:"toggleSearch",
+              isShowSearch:!this.props.isShowSearch
           })
        }
     }
