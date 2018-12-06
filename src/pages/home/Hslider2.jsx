@@ -9,15 +9,16 @@ class Hslider2 extends React.Component{
             sliderlist:[],
             bool:false
         };
+        console.log(this.props)
     };
 
 
 
     sliderlistChange(arr) {
-        let sliderHtml2 = item.sub_categories.map((item,index)=>{
+        let sliderHtml2 = arr.map((item,index)=>{
             console.log(item);
 
-            return   <li key={index}>{item.name} </li>}
+            return   <li key={index}>{item.name} </li>
 
 
         })
@@ -47,7 +48,7 @@ class Hslider2 extends React.Component{
             <div style={{"display":this.props.isShowNav2?"block":"none"}}>
                 <ul className="slider2"> 
 
-                     {this.sliderlistChange(this.state.sliderlist)}
+                     {this.sliderlistChange(this.props.obj.sub_categories)}
                   
                 </ul>
 
@@ -67,14 +68,13 @@ export default connect((state)=>{
     return state
 },(dispatch)=>{
     return {
-         onIncreaseClick() {
-            dispatch("increaseAction")
-        },
+       
         toggleNav2(){
             console.log(this)
             dispatch({
                 type:'toggleNav2',
                 isShowNav2:!this.props.isShowNav2
+                
             })
         }
     }

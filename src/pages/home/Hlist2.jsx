@@ -1,6 +1,6 @@
 import React from "react";
 
-class Hlist extends React.Component{
+class Hlist2 extends React.Component{
     constructor(props){
         super(props);
         this.state = {};
@@ -33,7 +33,7 @@ class Hlist extends React.Component{
 
     
     getInfo(){
-        React.axios.get('./data/hlist.json')
+        React.axios.get('./data/hlist2.json')
         .then((res)=>{
             console.log(res.data)
             this.setState({
@@ -58,10 +58,10 @@ class Hlist extends React.Component{
     render(){
         return(
             <div>
-                <ul className="homelist">
+                <ul className="homelist2">
 
                     {this.hlistChange(this.state.homelist)}
-                    }
+                    
                 </ul>
             </div>
         )
@@ -70,7 +70,7 @@ class Hlist extends React.Component{
 
 
 }
-export default Hlist;
+export default Hlist2;
  
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import {connect} from 'react-redux';
-// import Hslider2 from "./Hslider2.jsx";
+import Hslider2 from "./Hslider2.jsx";
 
 class Hslider extends React.Component{
     constructor(props){
@@ -21,14 +21,14 @@ class Hslider extends React.Component{
         let sliderHtml = arr.map((item,index)=>{
             /*console.log(item);*/
 
-            return <li key={index}>{item.name}
-                        <i className="fa fa-angle-down" aria-hidden="true"
+            return <li key={index}>
+                        <p> {item.name}<i className="fa fa-angle-down" aria-hidden="true"
                         onClick={
                       this.props.toggleNav2.bind(this)
                     }
-                        ></i>
+                    ></i></p>
 
-
+                      <Hslider2 obj={item}></Hslider2>
 
                        
                    </li>;
@@ -102,11 +102,14 @@ export default connect((state)=>{
           })
        },
 
-       toggleNav2(){
-          console.log(this)
+       toggleNav2(arr){
+          console.log(arr)
           dispatch({
               type:"toggleNav2",
-              isShowNav2:!this.props.isShowNav2
+              isShowNav2:{
+                bool:!this.props.isShowNav2.bool,
+              arr
+              } 
           })
        }
 

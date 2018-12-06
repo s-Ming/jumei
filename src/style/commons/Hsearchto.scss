@@ -1,0 +1,39 @@
+.searchto{
+        width:rem(375px);
+        position:fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        z-index:99;
+        background:#fff;
+        color:#666;
+    .searchto_head{
+        margin-bottom:rem(8px);
+        font-size: rem(18px);
+            padding:rem(10px);
+
+        i{
+            padding-left:rem(10px);
+            color:#ccc;
+            
+        }
+        input{
+            margin:0 rem(10px) rem(8px) rem(10px);
+            border-radius:rem(15px);
+            width: rem(280px);
+            text-align:center;
+            background: #eee;
+            border:0 none;
+            padding:rem(8px);
+        }
+        span{
+            font-size:rem(14px);
+            width:rem(50px);
+            color:#999;
+            padding:rem(6px) rem(5px) 0 0 ;
+        }
+    }
+
+
+
+}

@@ -32,7 +32,9 @@ const store = createStore((state = {
 
     title:"聚美优品",
     isShowNav: false,
-    isShowNav2:false
+    isShowNav2:false,
+    isShowSearch:false,
+
 
 }, action) => {
     
@@ -46,6 +48,11 @@ const store = createStore((state = {
             return {
                 ...state,
                 isShowNav2:action.isShowNav2
+            }
+         case 'toggleSearch':
+            return {
+                ...state,
+                isShowSearch:action.isShowSearch
             }
         default:
             return state
