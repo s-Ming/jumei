@@ -4,7 +4,7 @@ import Hsearch from './Hsearch.jsx';
 import Hnav from './Hnav.jsx';
 import Hlist from './Hlist.jsx';
 import {connect} from 'react-redux';
-
+import Jfooter from '../../commons/Jfooter.jsx';
 
 
 class Home extends Component {
@@ -15,6 +15,7 @@ class Home extends Component {
           tablist:[{title:'今日10点上新',path:'tab-online'},{title:'明日10点预告',path:'tab-preshow'}],
            
         };
+        console.log(this.props.history)
     }
 
     tabChange(arr) {
@@ -40,7 +41,7 @@ class Home extends Component {
 
 
                 <Hlist></Hlist>        
-
+                <Jfooter history={this.props.history} />
             </div>
         );
     }

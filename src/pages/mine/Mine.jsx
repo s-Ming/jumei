@@ -1,4 +1,5 @@
 import React from "react";
+import Jfooter from '../../commons/Jfooter.jsx';
 class Mine extends React.Component{
 	constructor(props) {
 	  super(props);
@@ -9,7 +10,8 @@ class Mine extends React.Component{
 	render(){
 		return(
 			<div className="mine">
-				wo men Mine ba  
+				wo men Mine ba 
+				<Jfooter history={this.props.history} />
 			</div>
 			)
 	}

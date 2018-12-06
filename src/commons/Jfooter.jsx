@@ -1,4 +1,6 @@
 import React from "react";
+import {Link,NavLink} from "react-router-dom";
+
 class Jfooter extends React.Component{
 	constructor(props) {
 	  	super(props);
@@ -18,7 +20,7 @@ class Jfooter extends React.Component{
 		  	},
 		  	{
 		  		name:'购物车',
-		  		path:'shoppingCar',
+		  		path:'car',
 		  		className:'fa fa-shopping-cart'
 		  	},
 		  	{
@@ -30,20 +32,33 @@ class Jfooter extends React.Component{
 		};
 	  	this.props = props;
 	};
-	navigateTo(idx,e){
-		this.setState({
-			nav: idx
-		})
-		//this.props.history.push(this.state.navlist[idx].path)
+
+	//判断现在路由位置,显示高亮
+	componentWillMount(){
+		for(var i= 0;i<this.state.navlist.length;i++){
+			if(this.props.history.location.pathname ==('/'+this.state.navlist[i].path)){
+					this.setState({
+						nav: i
+					})
+			}
+
+		}
 	}
+
+	// 跳转路由
+	navigateTo(idx){
+		this.props.history.push(this.state.navlist[idx].path);
+	}
+
+
 	render(){
 		return(
 			<div className="footer">
 				{this.state.navlist.map((item,idx)=>{
 					return <div key={idx}
-					onClick={this.navigateTo.bind(this, idx)}
+					onClick={this.navigateTo.bind(this,idx)}
 					className={
-					idx === this.state.nav ? "item_li footer_div" : "footer_div"
+					idx == this.state.nav ? "item_li footer_div" : "footer_div"
 				}
 					>
 						<i className={item.className}></i>
