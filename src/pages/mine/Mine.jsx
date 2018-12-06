@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 // import { Route } from "react-router-dom";
 import Mlogin from './Mlogin.jsx';
-import Mregister from './Mregister.jsx';
+// import Mregister from './Mregister.jsx';
 
 import {connect} from 'react-redux';
 
@@ -32,14 +32,16 @@ class Mine extends Component {
 
     render() {
         return (
-            <div>
+            <div className="">
                
                   
-                <ul className="tablist">
-                    {this.tabChange(this.state.tablist)}
-                </ul>  
+                
 
-    
+              
+                
+                <Mlogin></Mlogin>
+
+
                  
 
             </div>
@@ -73,3 +75,5 @@ export default connect((state)=>{
 )(Mine) ;
 
 
+  // <Mregister></Mregister>
+  // <Mlogin></Mlogin>

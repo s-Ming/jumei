@@ -1,17 +1,15 @@
 import React from "react";
-import {connect} from 'react-redux';
-
 
 class Hlist extends React.Component{
     constructor(props){
         super(props);
-        this.state = {};
+        this.state={};
         this.props = props;
-        this.state = {
-            homelist:[]
-        }
+        
+        console.log(this.props)
     }
 
+    
 
 
     hlistChange(arr) {
@@ -34,35 +32,17 @@ class Hlist extends React.Component{
 
 
     
-    getInfo(){
-        React.axios.get('./data/hlist.json')
-        .then((res)=>{
-            console.log(res.data)
-            this.setState({
-                homelist:res.data.item_list
-            })
-            // console.log(this.state.sliderlist)
-            console.log(res.data.item_list[0].image_url_set.dx_image.url[320])
-            // data.item_list[""0""].image_url_set.dx_image.url
-         
-        })
-        .catch((err)=>{
-            console.log(err);
-        })
-    }
+  
 
 
 
-    componentDidMount(){
-        this.getInfo()
-    }
 
     render(){
         return(
             <div>
-                <ul className="homelist">
+                <ul className="homelist2">
 
-                    {this.hlistChange(this.state.homelist)}
+                    {this.hlistChange(this.props.data)}
                     
                 </ul>
             </div>
@@ -72,23 +52,7 @@ class Hlist extends React.Component{
 
 
 }
-export default connect((state)=>{
-    return state
-},
-
-(dispatch)=>{
-    return {
-       togglelist(){
-          console.log(this)
-          dispatch({
-              type:"togglelist",
-              isShowlist:!this.props.isShowlist
-          })
-       }
-    }
-
-}
-)(Hlist) ;;
+export default Hlist;
  
 
 

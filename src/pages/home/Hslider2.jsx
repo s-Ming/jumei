@@ -9,14 +9,14 @@ class Hslider2 extends React.Component{
             sliderlist:[],
             bool:false
         };
-        console.log(this.props)
+        /*console.log(this.props)*/
     };
 
 
 
     sliderlistChange(arr) {
         let sliderHtml2 = arr.map((item,index)=>{
-            console.log(item);
+           /* console.log(item);*/
 
             return   <li key={index}>{item.name} </li>
 
@@ -29,7 +29,7 @@ class Hslider2 extends React.Component{
     getInfo(){
         React.axios.get('./data/hslider.json')
         .then((res)=>{
-            console.log(res.data.data)
+            /*console.log(res.data.data)*/
             this.setState({
                 sliderlist:this.state.sliderlist.concat(res.data.data)  
             })
@@ -64,7 +64,7 @@ class Hslider2 extends React.Component{
 
 
 export default connect((state)=>{
-    console.log(state)
+    /*console.log(state)*/
     return state
 },(dispatch)=>{
     return {

@@ -24,14 +24,21 @@
         // height:rem(50px);
         // display:flex;
         // justify-content: space-between;
-        padding:0 rem(16px);             
+                   
         font-size:rem(14px);
         // align-items: center;
         border-bottom:1px dotted #ccc;
         // position:relative;
-        i{
-            height:rem(50px);
+       
+        p{
+             padding:  rem(16px) rem(16px) 0  rem(16px); 
+             display:flex;
+             justify-content:space-between;
+           i{
+            height:rem(30px);
+            } 
         }
+        
         // ul.slider2{
         //     width:rem(315px);
         //     position:absolute;

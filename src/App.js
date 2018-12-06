@@ -10,7 +10,7 @@ class App extends Component {
     render(){
         return (
           <div className="App">
-            <Redirect exact from='/' to='/home/'/>
+            <Redirect exact from='/' to='/mine'/>
             <Route path="/home/" component={Index} />
             <Route path="/mine/" component={Mine} />
             <Route path="/pintuan/" component={Pintuan} />

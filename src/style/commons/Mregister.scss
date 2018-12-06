@@ -1,0 +1,40 @@
+.register{
+    padding:rem(5px) rem(45px);
+    font-size:rem(14px); 
+    color:#999;
+    h4{
+      font-size:rem(14px);  
+      margin:rem(20px) auto;
+      text-align:center;
+    }
+    input{
+        width:rem(285px);
+        height:rem(30px);
+        border-radius:rem(15px);
+        background:#eee;
+        border:0;
+        margin-bottom:rem(15px);
+        padding:rem(20px);
+
+    }
+    input:last-of-type{
+        line-height:rem(8px);
+        background:#feb2c5!important;
+        color:#fff;
+    }
+    input:nth-of-type(2){
+        width:rem(180px);
+        margin-right:rem(15px);
+    }
+    span{
+        // width:rem(150px);
+        border:rem(1px) solid #feb2c5;
+        color:#feb2c5!important;
+        border-radius:rem(20px);
+        padding:rem(10px) rem(30px);
+    }
+    p{
+        text-align:center;
+    }
+    
+}

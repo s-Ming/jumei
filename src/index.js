@@ -13,6 +13,7 @@ import * as serviceWorker from './serviceWorker';
 // import Hsearch from './pages/home/Hsearch.jsx';
 // import Hnav from './pages/home/Hnav.jsx';
 import Home from './pages/home/Home.jsx';
+import Mine from "./pages/mine/Mine.jsx";
 
 // import Jheader from './commons/Jheader.jsx';
 // import Jfooter from './commons/Jfooter.jsx';
