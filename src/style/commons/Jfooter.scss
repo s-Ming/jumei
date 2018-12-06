@@ -10,6 +10,7 @@
 	left:0;
 	bottom:0;
 	right:0;
+	background: #fff;
 	.footer_div{
 		display: flex;
 		flex-direction:column;
@@ -17,6 +18,7 @@
 		font-size: rem(16px);
 		width:25%;
 		text-align: center;
+		color:#ccc;
 		i{
 			text-align: center;
 		}

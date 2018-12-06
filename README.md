@@ -61,3 +61,6 @@ npm run eject    暴露配置文件
 
 2.组件show,点击事件去改变某个状态值,再三元运算作show与非show的判断
 3.render 函数中的{}内不能加分号 ';'
+
+
+4.路由跳转 this.props.history.push("/home")

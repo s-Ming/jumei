@@ -4,7 +4,7 @@ import Hsearch from './Hsearch.jsx';
 import Hnav from './Hnav.jsx';
 import Hlist from './Hlist.jsx';
 import {connect} from 'react-redux';
-
+import Jfooter from '../../commons/Jfooter.jsx';
 
 
 class Home extends Component {
@@ -17,7 +17,7 @@ class Home extends Component {
           homelist:[]
            
         };
-        console.log(this.state.homelist)
+
     }
 
     tabChange(arr) {
@@ -90,11 +90,18 @@ class Home extends Component {
                 <Hnav></Hnav>     
                 <ul className="tablist">
                     {this.tabChange(this.state.tablist)}
-                </ul>  
+
+                 </ul>
                 {
                   this.state.homelist === [] ? "111" : <Hlist data={this.state.homelist} />
                 }
                 
+
+                 
+
+                       
+                <Jfooter history={this.props.history} />
+
 
             </div>
         );

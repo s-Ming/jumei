@@ -1,3 +1,4 @@
+import Jfooter from '../../commons/Jfooter.jsx'
 
 import React, { Component } from 'react';
 // import { Route } from "react-router-dom";
@@ -43,7 +44,7 @@ class Mine extends Component {
 
 
                  
-
+                <Jfooter history={this.props.history} />
             </div>
         );
     }
@@ -70,6 +71,7 @@ export default connect((state)=>{
           })
        }
     }
+
 
 }
 )(Mine) ;
