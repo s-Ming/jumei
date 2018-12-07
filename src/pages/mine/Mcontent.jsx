@@ -1,6 +1,7 @@
 import React from "react";
 import {connect} from 'react-redux';
 import Mheadcontent from "./Mheadcontent.jsx";
+import {Link} from "react-router-dom";
 
 
 class Mcontent extends React.Component{
@@ -17,11 +18,17 @@ class Mcontent extends React.Component{
        render(){
           return(
             <div className="my">
-                <Mheadcontent></Mheadcontent>
+                <Link to ="/home"><Mheadcontent></Mheadcontent></Link>
 
                 <div className="tochoose">
                     <div className="man"><i className='fa fa-user-o'></i></div>
-                    <div><span>注册</span><span> | </span><span>登录</span></div>
+                    <div>
+                      <Link to="/mregister"><span >注册</span></Link>
+                      <span> | </span>
+                      <Link to ="/mlogin">
+                      <span>登录</span></Link>
+                    </div>
+
                 </div>
 
                 <div className="myInfo">

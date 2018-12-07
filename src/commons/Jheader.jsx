@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-router-dom";
+
 class Jheader extends React.Component{
 	constructor(props) {
 	  super(props);
@@ -8,11 +10,11 @@ class Jheader extends React.Component{
 	
 	render(){
 		return(
-			<div className="header">
+			<Link to="/home"><div className="header">
 				<i className="fa fa-angle-left" aria-hidden="true"></i>
-				<span>{this.props.name}</span>
-				<i className="fa fa-home" aria-hidden="true"></i>
-			</div>
+				<span>{this.props.name}</span>		
+				<i className="fa fa-home" aria-hidden="true"></i>		
+			</div></Link>
 			)
 	}
 }

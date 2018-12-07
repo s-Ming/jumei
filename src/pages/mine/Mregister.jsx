@@ -1,5 +1,5 @@
 import React from "react";
-import {connect} from 'react-redux';
+// import {connect} from 'react-redux';
 import Mheadtoreg from "./Mheadtoreg.jsx";
 
 
@@ -39,23 +39,7 @@ class Mregister extends React.Component{
 
 
 }
-export default connect((state)=>{
-    return state
-},
-
-(dispatch)=>{
-    return {
-       togglelist(){
-          console.log(this)
-          dispatch({
-              type:"togglelist",
-              isShowlist:!this.props.isShowlist
-          })
-       }
-    }
-
-}
-)(Mregister) ;
+export default Mregister ;
  
 
 

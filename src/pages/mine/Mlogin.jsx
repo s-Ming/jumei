@@ -1,5 +1,5 @@
 import React from "react";
-import {connect} from 'react-redux';
+// import {connect} from 'react-redux';
 import Mheadtolog from "./Mheadtolog.jsx";
 
 
@@ -32,23 +32,7 @@ class Mlogin extends React.Component{
 
 
 }
-export default connect((state)=>{
-    return state
-},
-
-(dispatch)=>{
-    return {
-       togglelist(){
-          console.log(this)
-          dispatch({
-              type:"togglelist",
-              isShowlist:!this.props.isShowlist
-          })
-       }
-    }
-
-}
-)(Mlogin) ;
+export default Mlogin ;
  
 
 

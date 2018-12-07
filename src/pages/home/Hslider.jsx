@@ -8,8 +8,10 @@ class Hslider extends React.Component{
         this.props = props; 
         this.state = {
             sliderlist:[],
-            bool:false
+            bool:false,
+            idx:''
         };
+        console.log(this.props)
     };
 
 
@@ -24,11 +26,12 @@ class Hslider extends React.Component{
             return <li key={index}>
             <p><span> {item.name}</span><i className="fa fa-angle-down" aria-hidden="true"
                         onClick={
-                      this.props.toggleNav2.bind(this)
+                      this.props.toggleNav2.bind(this,index)
                     }
                     ></i></p>
-
-                      <Hslider2 obj={item}></Hslider2>
+                    {index ==  this.props.idx? (<Hslider2 obj={item} ></Hslider2>) : ''}
+                      
+                  
 
                        
                    </li>;
@@ -55,18 +58,26 @@ class Hslider extends React.Component{
         })
     }
 
-
+    componentDidUpdate(){
+      console.log(this.props)
+    }
 
     render(){
         return(
-            <div style={{"display":this.props.isShowNav?'block':'none'}}>
+            <div className='slid' style={{"display":this.props.isShowNav?'block':'none'}}>
                 <ul className="slider"> 
 
                     <div className="search">
-                        <input placeholder="搜索商品、 分类 、功效"/>   
+
+                      <div className="search_div">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input placeholder="搜索商品、 分类 、功效"/>                        
+                      </div>
+
                         <span onClick={
-                      this.props.toggleNav.bind(this)
-                    }>返回</span>           
+                        this.props.toggleNav.bind(this)
+                        }>返回</span> 
+
                     </div>
 
                      {this.sliderlistChange(this.state.sliderlist)}
@@ -88,6 +99,7 @@ class Hslider extends React.Component{
 
 export default connect((state)=>{
     console.log(state)
+
     return state
 },(dispatch)=>{
     return {
@@ -102,12 +114,28 @@ export default connect((state)=>{
           })
        },
 
-       toggleNav2(arr){
-          console.log(arr)
-          dispatch({
-              type:"toggleNav2",
-              isShowNav2:!this.props.isShowNav2
-          })
+      toggleNav2(idx){
+         if(this.props.idx==idx){
+         //idx不改变时，改变显示的状态值
+            dispatch({
+               type:"toggleNav2",
+               isShowNav2:!this.props.isShowNav2,
+               idx : idx
+
+            }) 
+
+         }else {
+         //idx改变时，状态值改为true
+            dispatch({
+               type:"toggleNav2",
+               isShowNav2:true,
+               idx : idx
+
+            }) 
+        }
+
+          
+
        }
 
     }

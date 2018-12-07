@@ -7,17 +7,24 @@ import Hsearchto from './Hsearchto.jsx';
 class Hsearch extends React.Component{
     constructor(props) {
       super(props);
-      this.state = {};
+      this.state = {
+
+      };
       this.props = props;
     };
     render(){
         return(
             <div>
                <div className="search">
-                  <input  onClick={
-                      this.props.toggleSearch.bind(this)
-                    } placeholder="搜索商品  分类  功效"/>
+                  <div className="search_div">
+                    <i class="fa fa-search" aria-hidden="true"></i>
                     
+                    <input  onClick={
+                        this.props.toggleSearch.bind(this)
+                      } placeholder="搜索商品  分类  功效"/>
+                      
+                  </div>
+                  
                   <i className="fa fa-bars" aria-hidden="true"
                     onClick={
                       this.props.toggleNav.bind(this)

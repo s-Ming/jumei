@@ -1,28 +1,38 @@
 .search{
     display: flex;
     justify-content: space-around;
-    align-content: center;
-    height: rem(36px);
-    padding: rem(8px) 0;
-    
-    input{
+    align-items: center;
+    height: rem(46px);
+    padding:rem(10px) 0;
+    .search_div{
+        display:flex;
+        justify-content: center;
+        align-items:center;
         border-radius:rem(15px);
         width: rem(280px);
         text-align:center;
         background: #eee;
+        height:rem(30px);
+        i{font-size:rem(14px);}
+
+        input{
+        background: #eee;
+        
         border:0 none;
-        margin-left: rem(28px);
-        padding:rem(15px);
+        // margin-left: rem(28px);
+        padding:0 rem(15px);
         font-size: rem(14px);
 
+        }
     }
+    
     i{
         font-size: rem(22px);
         display: flex;
         align-items: center;
         justify-content: center;
         color:#ccc;
-        padding-top:rem(10px);
+        // padding-top:rem(10px);
 
 
     }
