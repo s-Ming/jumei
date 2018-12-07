@@ -1,6 +1,7 @@
 //详情页详情组件
 import React from 'react';
 import Jheader from './Jheader.jsx';
+import {Link} from "react-router-dom";
 
 class Jdetails extends React.Component{
 	constructor(props) {
