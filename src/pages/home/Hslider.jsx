@@ -68,10 +68,16 @@ class Hslider extends React.Component{
                 <ul className="slider"> 
 
                     <div className="search">
-                        <input placeholder="搜索商品、 分类 、功效"/>   
+
+                      <div className="search_div">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input placeholder="搜索商品、 分类 、功效"/>                        
+                      </div>
+
                         <span onClick={
-                      this.props.toggleNav.bind(this)
-                    }>返回</span>           
+                        this.props.toggleNav.bind(this)
+                        }>返回</span> 
+
                     </div>
 
                      {this.sliderlistChange(this.state.sliderlist)}

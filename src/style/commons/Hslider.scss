@@ -10,8 +10,26 @@
         overflow-y:scroll;
     .search{
         margin-bottom:rem(8px);
-        input{
-            margin:0 rem(20px) rem(8px) rem(15px);
+        .search_div{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            border-radius:rem(15px);
+            width: rem(280px);
+            text-align:center;
+            background: #eee;
+            height:rem(30px);
+            margin:0 rem(10px);
+            i{font-size:rem(14px);}
+            input{
+            background: #eee;
+            
+            border:0 none;
+            // margin-left: rem(28px);
+            padding:0 rem(15px);
+            font-size: rem(14px);
+
+            }
         }
         span{
             font-size:rem(14px);
