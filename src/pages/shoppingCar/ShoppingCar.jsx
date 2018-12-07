@@ -1,22 +1,30 @@
 import React from "react";
 import Jfooter from '../../commons/Jfooter.jsx';
+import Slist from './Slist.jsx';
+import Jheader from '../../commons/Jheader.jsx';
 class Car extends React.Component{
 	constructor(props) {
 	  super(props);
-	  this.state = {};
 	  this.props = props;
+	  this.state = [
+
+	  ];
+
 	};
 	
 
-	goPage(){
-		this.props.history.push('xiangqing')
+	getdata(){
+		// 获取本地数据
+
 	}
 	render(){
 		return(
 			<div className="car">
-				ni hao a 
-				<p onClick={this.goPage.bind(this)}>123456</p>
+				<Jheader name='购物车'/>
+				<Slist />
+				
 				<Jfooter history={this.props.history} />
+
 			</div>
 			)
 	}
