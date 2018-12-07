@@ -9,6 +9,12 @@ import Jfooter from './commons/Jfooter.jsx';
 
 //详情
 import Xiangqing from './commons/Jdetails.jsx'
+//注册
+import Mregister from "./pages/mine/Mregister.jsx";
+//登录
+import Mlogin from "./pages/mine/Mlogin.jsx";
+
+
 class App extends Component {
 	constructor(props) {
 	  	super(props);
@@ -25,6 +31,8 @@ class App extends Component {
             <Route path="/pintuan" component={Pintuan} />
             <Route path="/car" component={Car} />
             <Route path="/xiangqing" component={Xiangqing} />
+            <Route path="/mregister" component={Mregister} />
+            <Route path="/mlogin" component={Mlogin} />
         
             
 
