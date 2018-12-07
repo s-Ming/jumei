@@ -4,9 +4,10 @@
         top:0;
         left:rem(60px);
         bottom:0;
-        z-index:99;
+        z-index:999;
         background:#fff;
         color:#666;
+        overflow-y:scroll;
     .search{
         margin-bottom:rem(8px);
         input{
@@ -63,6 +64,7 @@
         right:0px;
         bottom:0px;
         left:0px;
+        z-index:99;
         background:rgba(0, 0, 0, 0.5);
 }
 .red{

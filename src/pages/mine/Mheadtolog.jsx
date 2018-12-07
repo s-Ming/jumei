@@ -1,5 +1,5 @@
 import React from "react";
-import {connect} from "react-redux";
+// import {connect} from "react-redux";
 import {Link} from "react-router-dom";
 
 
@@ -32,23 +32,7 @@ class Mheadtolog extends React.Component{
 
 
 
-export default connect((state)=>{
-    return state
-},
-
-(dispatch)=>{
-    return {
-       tog(){
-          console.log(this)
-          dispatch({
-              type:"tog",
-              isShow:!this.props.isShow
-          })
-       }
-    }
-
-}
-)(Mheadtolog) ;
+export default Mheadtolog;
  
 
 

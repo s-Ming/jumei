@@ -36,6 +36,7 @@ const store = createStore((state = {
     isShowNav: false,
     isShowNav2:false,
     isShowSearch:false,
+    idx:0,
 
 
 }, action) => {
@@ -49,13 +50,15 @@ const store = createStore((state = {
         case 'toggleNav2':
             return {
                 ...state,
-                isShowNav2:action.isShowNav2
+                isShowNav2:action.isShowNav2,
+                idx : action.idx
             }
          case 'toggleSearch':
             return {
                 ...state,
                 isShowSearch:action.isShowSearch
             }
+
         default:
             return state
     }

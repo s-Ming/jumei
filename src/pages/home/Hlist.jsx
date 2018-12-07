@@ -10,8 +10,7 @@ class Hlist extends React.Component{
         console.log(this.props)
     }
 
-    
-  
+
 
     hlistChange(arr) {
         if (arr==[]){
@@ -21,7 +20,10 @@ class Hlist extends React.Component{
             /*console.log(item)*/
             return <li key={index} >
                 <Link to="/xiangqing">
-                <div>
+                <div className="list"  >
+
+                   
+
                     <p>{item.name}</p>
                     <p>￥<span>{item.jumei_price}</span><span>￥{item.market_price}</span></p>
                     <p>{item.product_desc}</p>
@@ -31,11 +33,6 @@ class Hlist extends React.Component{
         })
         return hlistHtml;
     }
-
-
-    
-  
-
 
 
 
@@ -80,3 +77,13 @@ export default Hlist;
     // componentDidMount(){
     //     this.getInfo()
     // }
+
+
+ // style={{"background-image":url("{item.image_url_set.dx_image.url[320]")}}
+
+  // <img src={item.image_url_set.dx_image.url[320]} alt="" />
+  // 
+  // style={{ "backgroundImage": `url(${this.props.isShowGallery.src})` }}
+  // 
+  // style={{ "backgroundImage": "url(item.image_url_set.dx_image.url[320])" }}
+  // <img src={item.image_url_set.dx_image.url[320]} alt="avatar" />
