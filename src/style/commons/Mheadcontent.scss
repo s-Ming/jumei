@@ -1,0 +1,16 @@
+.tocontent{
+    display:flex;
+    justify-content:space-between;
+    font-size:rem(22px);
+    padding:rem(15px) ;
+    border:1px solid #eee;
+    align-items:center;
+    background:#fc5e9f;
+    color:#fff;
+    border:0;
+    border-bottom:1px solid #fc5e9f;
+    box-sizing:border-box;
+    span:last-of-type{
+        font-size:rem(16px);
+    }
+}

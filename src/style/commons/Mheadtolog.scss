@@ -1,0 +1,15 @@
+.tolog{
+    display:flex;
+    justify-content:space-between;
+    font-size:rem(18px);
+    padding:rem(10px) rem(15px) ;
+    border:1px solid #eee;
+    color:#999;
+    align-items:center;
+    i{
+        margin-right:rem(30px);
+    }
+    span:last-of-type{
+        font-size:rem(16px);
+    }
+}

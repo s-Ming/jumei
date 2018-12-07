@@ -22,7 +22,7 @@ class Hslider extends React.Component{
             /*console.log(item);*/
 
             return <li key={index}>
-                        <p> {item.name}<i className="fa fa-angle-down" aria-hidden="true"
+            <p><span> {item.name}</span><i className="fa fa-angle-down" aria-hidden="true"
                         onClick={
                       this.props.toggleNav2.bind(this)
                     }
@@ -106,10 +106,7 @@ export default connect((state)=>{
           console.log(arr)
           dispatch({
               type:"toggleNav2",
-              isShowNav2:{
-                bool:!this.props.isShowNav2.bool,
-              arr
-              } 
+              isShowNav2:!this.props.isShowNav2
           })
        }
 
