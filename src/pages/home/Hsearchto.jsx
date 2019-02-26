@@ -26,7 +26,7 @@ class Hsearchto extends React.Component{
                       }
                           ></i>
                       <div className="search_div">
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <i className="fa fa-search" aria-hidden="true"></i>
                         <input  onClick={
                             this.props.toggleSearch.bind(this)
                           } placeholder="搜索商品、分类、功效"/>

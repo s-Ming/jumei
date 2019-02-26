@@ -70,7 +70,7 @@ class Hslider extends React.Component{
                     <div className="search">
 
                       <div className="search_div">
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <i className="fa fa-search" aria-hidden="true"></i>
                         <input placeholder="搜索商品、 分类 、功效"/>                        
                       </div>
 

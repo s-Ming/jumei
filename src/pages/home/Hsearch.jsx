@@ -17,7 +17,7 @@ class Hsearch extends React.Component{
             <div>
                <div className="search">
                   <div className="search_div">
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <i className="fa fa-search" aria-hidden="true"></i>
                     
                     <input  onClick={
                         this.props.toggleSearch.bind(this)
